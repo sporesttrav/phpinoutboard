@@ -1,0 +1,165 @@
+@charset utf-8;
+
+body
+{
+	background-color:#F4F4F4;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:0;
+	margin-right:5px;
+	margin-left:5px;
+	padding:0;
+}
+
+body #top_menu a:link,a:visited,a:active,a:hover
+{
+	color:#003;
+	text-decoration:none;
+	font-weight:700;
+	font-size:14px;
+	font-family:sans-serif;
+}
+
+body #top_menu a:hover
+{
+	text-decoration:underline;
+}
+
+#usertable
+{
+	clear:both;
+	display:block;
+	width:600px;
+	margin:0;
+	padding:0;
+}
+
+.currentDay
+{
+	border-color:#333;
+	border-style:solid;
+	border-width:1px;
+}
+
+#day-cell
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:15px;
+	border-bottom-color:#333;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:#333;
+	padding:3px;
+}
+
+#th-left,#th-middle
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:15px;
+	border-right-color:#333;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#333;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	padding:3px;
+}
+
+#container
+{
+	text-align:center;
+	width:400px;
+	clear:both;
+	padding-top:5px;
+}
+
+#row
+{
+	height:30px;
+}
+
+#left,#right,#middle
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:15px;
+}
+
+#left
+{
+	width:50%;
+	text-align:right;
+}
+
+select
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:600;
+}
+
+#message-text
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:100;
+}
+
+h6
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:700;
+}
+
+a.tt
+{
+	position:relative;
+	z-index:24;
+	color:#111;
+	font-size:12px;
+	font-family:sans-serif;
+	font-weight:700;
+	text-decoration:none;
+}
+
+a.tt span
+{
+	display:none;
+}
+
+a.tt:hover
+{
+	z-index:25;
+	color:#111;
+	font-size:12px;
+	font-family:sans-serif;
+	background:;
+}
+
+a.tt:hover span.tooltip
+{
+	display:block;
+	position:absolute;
+	top:20px;
+	left:10px;
+	width:200px;
+	color:#930;
+	text-align:left;
+	background-color:#F5F5DC;
+	font-size:12px;
+	font-family:sans-serif;
+	font-weight:400;
+	padding:10px 10px 0 0;
+}
+
+#status-text,h5
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:700;
+}
